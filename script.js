@@ -1,3 +1,4 @@
+//PAGE CONTROL//
 var headerButtons = document.querySelectorAll(".headerButton");
 var pages = document.querySelectorAll(".page");
 function hideAllPages() {
@@ -19,3 +20,23 @@ for (let i = 0; i < headerButtons.length; i++) {
         showPage(i);
     });
 }
+
+//LOAD JSON DATA//
+function fetchJSONData(filepath) {
+    fetch(filepath)
+    .then((res) => {
+        if (!res.ok) {
+            throw new Error
+                (`HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+    })
+    .then((data) =>{
+        console.log(data);
+        return data;
+    })
+    .catch((error) =>
+        console.error("Unable to fetch data:", error));
+}
+//Changelogs//
+fetchJSONData("https://infernalfury270.github.io/toranoko/data/changelogs.json");
