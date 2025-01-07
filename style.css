@@ -1,0 +1,47 @@
+@font-face {
+    font-family: webFont, 'Times New Roman', Times, serif;
+    src: url(fonts/Dosis-Regular.tff) format("truetype");
+}
+@font-face {
+    font-family: webFont, 'Times New Roman', Times, serif;
+    src: url(fonts/Dosis-Bold.tff) format("truetype");
+    font-weight: bold;
+}
+
+* {
+    font-family: webFont;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 171, 75);
+    color: rgb(255, 248, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header, #constructionMessage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pageContainer {
+    width: 80%;
+}
+
+.page>div{
+    background-color: rgb(228, 121, 13);
+    padding: 50px 50px 50px 50px;
+    border-radius: 50px;
+    border-width: 10px;
+    border-style:solid;
+    border-color: rgb(255, 199, 95);
+}
+
+
+@media screen and (max-width:800px)
+{
+
+}
