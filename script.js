@@ -1,5 +1,4 @@
 //PAGE CONTROL//
-var headerButtons = document.querySelectorAll(".headerButton");
 var pages = document.querySelectorAll(".page");
 function hideAllPages() {
     for (let page of pages){
@@ -14,10 +13,12 @@ function hideAllPages() {
 
 showPage(0);
 
+var headerButtons = document.querySelectorAll("#headerButtons>button");
 for (let i = 0; i < headerButtons.length; i++) {
     let headerButton = headerButtons[i];
     headerButton.addEventListener("click", function() {
         showPage(i);
+        scroll(0,650);
     });
 }
 
@@ -78,7 +79,7 @@ function ReadSeries(seriesName) {
 }
 ReadSeries("Newsletters");
 
-var readingPageButtons = document.querySelectorAll(".readingPageButton");
+var readingPageButtons = document.querySelectorAll("#readingPageButtons>button");
 for (let i = 0; i < readingPageButtons.length; i++) {
     let seriesButton = readingPageButtons[i];
     seriesButton.addEventListener("click", function() {
@@ -114,7 +115,7 @@ function LoadCharacterSet(setName) {
 }
 LoadCharacterSet("The Takasu Family");
 
-var characterPageButtons = document.querySelectorAll(".characterPageButton");
+var characterPageButtons = document.querySelectorAll("#characterPageButtons>button");
 for (let i = 0; i < characterPageButtons.length; i++) {
     let charPageButton = characterPageButtons[i];
     charPageButton.addEventListener("click", function() {
