@@ -78,7 +78,7 @@ function ReadSeries(seriesName) {
 }
 ReadSeries("Newsletters");
 
-var readingPageButtons = document.querySelectorAll("#readingPageButtons");
+var readingPageButtons = document.querySelectorAll(".readingPageButton");
 for (let i = 0; i < readingPageButtons.length; i++) {
     let seriesButton = readingPageButtons[i];
     seriesButton.addEventListener("click", function() {
