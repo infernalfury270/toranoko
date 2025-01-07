@@ -66,7 +66,7 @@ function ReadSeries(seriesName) {
         readSeries.querySelector("img").src = data[seriesName][0].imageFilepath;
         let entryContainer = readSeries.querySelector("div:nth-of-type(1)");
         while (entryContainer.firstChild) {
-            entryContainer.removeChild(myNode.lastChild);
+            entryContainer.removeChild(entryContainer.lastChild);
         }
         for (let i = 0; i < data[seriesName][0].entries.length; i++) {
             let newNode = document.createElement("a");
@@ -77,3 +77,11 @@ function ReadSeries(seriesName) {
     })
 }
 ReadSeries("Newsletters");
+
+var readingPageButtons = document.querySelectorAll(".readingPageButton");
+for (let i = 0; i < readingPageButtons.length; i++) {
+    let seriesButton = readingPageButtons[i];
+    seriesButton.addEventListener("click", function() {
+        ReadSeries(seriesButton.innerHTML);
+    });
+}
