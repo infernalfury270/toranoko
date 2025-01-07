@@ -85,3 +85,39 @@ for (let i = 0; i < readingPageButtons.length; i++) {
         ReadSeries(seriesButton.innerHTML);
     });
 }
+
+//Characters//
+
+function LoadCharacter(characterData) {
+    let characterInfo = document.querySelector("#characterInfo");
+    characterInfo.querySelector("img:nth-of-type(1)").src = characterData.portraitFilepath;
+    characterInfo.querySelector("h2").innerHTML = characterData.name;
+    characterInfo.querySelector("p").innerHTML = characterData.description;
+    characterInfo.querySelector("img:nth-of-type(2)").src = characterData.fullbodyFilepath;
+}
+function LoadCharacterSet(setName) {
+    fetchFileData(endpoint + "data/characters.json", function(data) {
+        let characterButtonContainer = document.querySelector("#characterButtonContainer");
+        while (characterButtonContainer.firstChild) {
+            characterButtonContainer.removeChild(characterButtonContainer.lastChild);
+        }
+        for (let i = 0; i < data[setName].length; i++) {
+            let newNode = document.createElement("button");
+            newNode.appendChild(document.createTextNode(data[setName][i].name));
+            characterButtonContainer.appendChild(newNode);
+            newNode.addEventListener("click", function() {
+                LoadCharacter(data[setName][i]);
+            })
+        }
+        LoadCharacter(data[setName][0]);
+    })
+}
+LoadCharacterSet("The Takasu Family");
+
+var characterPageButtons = document.querySelectorAll(".characterPageButton");
+for (let i = 0; i < characterPageButtons.length; i++) {
+    let charPageButton = characterPageButtons[i];
+    charPageButton.addEventListener("click", function() {
+        LoadCharacterSet(charPageButton.innerHTML);
+    });
+}

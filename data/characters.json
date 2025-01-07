@@ -1,0 +1,92 @@
+{
+    "The Takasu Family":[
+        {
+            "name":"Takasu Ryūji",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takasu Taiga",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takasu Haruko",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takasu Mitsuko",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takasu Katsuko",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takasu Yuuchi",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        }
+    ],
+    "Class 2-C of 2029":[
+        {
+            "name":"Sagawa Kaito",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Ninomae Arisa",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Kishida Mie",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Koigakubo Tarō",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takano Saki",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Yoshida Satoshi",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Kogarashi Hitomi",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        }
+    ],
+    "Others":[
+        {
+            "name":"Koigakubo Yuri",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        }
+    ]
+}
