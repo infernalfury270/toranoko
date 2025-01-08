@@ -64,7 +64,7 @@ function ReadSeries(seriesName) {
     readSeries.querySelector("h2").innerHTML = seriesName;
     fetchFileData(endpoint + "data/writingpieces.json", function(data) {
         readSeries.querySelector("p:nth-of-type(1)").innerHTML = data[seriesName][0].description;
-        readSeries.querySelector("img").src = data[seriesName][0].imageFilepath;
+        readSeries.querySelector("img").src = endpoint + data[seriesName][0].imageFilepath;
         let entryContainer = readSeries.querySelector("div:nth-of-type(1)");
         while (entryContainer.firstChild) {
             entryContainer.removeChild(entryContainer.lastChild);
@@ -91,10 +91,10 @@ for (let i = 0; i < readingPageButtons.length; i++) {
 
 function LoadCharacter(characterData) {
     let characterInfo = document.querySelector("#characterInfo");
-    characterInfo.querySelector("img:nth-of-type(1)").src = characterData.portraitFilepath;
+    characterInfo.querySelector("img:nth-of-type(1)").src = endpoint + characterData.portraitFilepath;
     characterInfo.querySelector("h2").innerHTML = characterData.name;
     characterInfo.querySelector("p").innerHTML = characterData.description;
-    characterInfo.querySelector("img:nth-of-type(2)").src = characterData.fullbodyFilepath;
+    characterInfo.querySelector("img:nth-of-type(2)").src = endpoint + characterData.fullbodyFilepath;
 }
 function LoadCharacterSet(setName) {
     fetchFileData(endpoint + "data/characters.json", function(data) {

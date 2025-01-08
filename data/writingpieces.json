@@ -1,17 +1,17 @@
 {
     "Newsletters":[
-        {"imageFilepath":"placeholder.png", "description":"My newsletters.", "entries":[
+        {"imageFilepath":"gallery/img_2.png", "description":"My newsletters.", "entries":[
             {"entryName":"Newsletter 28/12/2024", "entryFilepath":"read/0_1.pdf"},
             {"entryName":"Newsletter 27/12/2024", "entryFilepath":"read/0_1.pdf"}
         ]}
     ],
     "Toranoko! Keepers":[
-        {"imageFilepath":"placeholder.png", "description":"Toranoko! Side Story","entries":[
+        {"imageFilepath":"gallery/img_2.png", "description":"Toranoko! Side Story","entries":[
             {"entryName":"Chapter 1: Aisaka Rikurō", "entryFilepath":"read/0_1.pdf"}
         ]}
     ],
     "Volume 1":[
-        {"imageFilepath":"placeholder.png", "description":"The first volume.","entries":[
+        {"imageFilepath":"gallery/img_2.png", "description":"The first volume.","entries":[
             {"entryName":"Prologue", "entryFilepath":"read/0_1.pdf"}
         ]}
     ]
