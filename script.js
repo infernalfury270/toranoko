@@ -8,7 +8,7 @@ function hideAllPages() {
  function showPage(pgno) {
     hideAllPages();
     let page = pages[pgno]
-    page.style.display="block";
+    page.style.display="flex";
 }
 
 showPage(0);
@@ -18,7 +18,7 @@ for (let i = 0; i < headerButtons.length; i++) {
     let headerButton = headerButtons[i];
     headerButton.addEventListener("click", function() {
         showPage(i);
-        scroll(0,650);
+        scroll(0,600);
     });
 }
 
