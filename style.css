@@ -176,7 +176,7 @@ header, #constructionMessage {
     width: 100%;
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 30% 1fr;
+    grid-template-rows: 75px 1fr;
 }
 #characterInfo>*:nth-child(1) {
     grid-column: 1 / 2;
@@ -188,17 +188,20 @@ header, #constructionMessage {
 #characterInfo>*:nth-child(2) {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
+    font-size: 35px;
 }
 #characterInfo>*:nth-child(3) {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     text-wrap: wrap;
-    word-break: break-all;
+    line-height: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 #characterInfo>*:nth-child(4) {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-    width:100%
+    width:100%;
 }
 
 
