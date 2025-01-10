@@ -44,6 +44,7 @@ function fetchFileData(filepath, dataHandler) {
 function LoadChangelogs(data) {
     let changelogContainer = document.querySelector("#changelogContainer");
     let changelogEntrySample = document.querySelector("#changelogEntrySample");
+    changelogEntrySample.removeAttribute("changelogEntrySample")
     let changelogError = document.querySelector("#changelogError");
     if (data.changelogs.length != 0) {
         changelogError.remove();
@@ -72,6 +73,7 @@ function ReadSeries(seriesName) {
         for (let i = 0; i < data[seriesName][0].entries.length; i++) {
             let newNode = document.createElement("a");
             newNode.href = data[seriesName][0].entries[i].entryFilepath;
+            newNode.target = "_blank";
             newNode.appendChild(document.createTextNode(data[seriesName][0].entries[i].entryName));
             entryContainer.appendChild(newNode);
         }
@@ -122,3 +124,17 @@ for (let i = 0; i < characterPageButtons.length; i++) {
         LoadCharacterSet(charPageButton.innerHTML);
     });
 }
+
+//BACK TO TOP//
+var backToTopButton = document.querySelector("#backToTop");
+backToTopButton.style.display = "none";
+backToTopButton.addEventListener("click", function() {
+    scroll(0,0);
+})
+document.addEventListener("scroll", function() {
+    if (window.scrollY > 50) {
+        backToTopButton.style.display = "initial";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+})
