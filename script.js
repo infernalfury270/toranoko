@@ -81,13 +81,17 @@ function ReadSeries(seriesName) {
 }
 ReadSeries("Newsletters");
 
-var readingPageButtons = document.querySelectorAll("#readingPageButtons>button");
-for (let i = 0; i < readingPageButtons.length; i++) {
-    let seriesButton = readingPageButtons[i];
-    seriesButton.addEventListener("click", function() {
-        ReadSeries(seriesButton.innerHTML);
-    });
-}
+var readingPageButtons = document.querySelector("#readingPageButtons");
+fetchFileData(endpoint + "data/writingpieces.json", function(data) {
+    Object.keys(data).forEach(function(key) {
+        let newButton = document.createElement("button");
+        newButton.appendChild(document.createTextNode(key));
+        readingPageButtons.appendChild(newButton);
+        newButton.addEventListener("click", function() {
+            ReadSeries(key);
+        })
+    })
+})
 
 //Characters//
 
@@ -117,13 +121,17 @@ function LoadCharacterSet(setName) {
 }
 LoadCharacterSet("The Takasu Family");
 
-var characterPageButtons = document.querySelectorAll("#characterPageButtons>button");
-for (let i = 0; i < characterPageButtons.length; i++) {
-    let charPageButton = characterPageButtons[i];
-    charPageButton.addEventListener("click", function() {
-        LoadCharacterSet(charPageButton.innerHTML);
-    });
-}
+var characterPageButtons = document.querySelector("#characterPageButtons");
+fetchFileData(endpoint + "data/characters.json", function(data) {
+    Object.keys(data).forEach(function(key) {
+        let newButton = document.createElement("button");
+        newButton.appendChild(document.createTextNode(key));
+        characterPageButtons.appendChild(newButton);
+        newButton.addEventListener("click", function() {
+            LoadCharacterSet(key);
+        })
+    })
+})
 
 //BACK TO TOP//
 var backToTopButton = document.querySelector("#backToTop");
