@@ -18,6 +18,7 @@
 * {
     font-family: 'Dosis', 'Trebuchet MS';
     text-align: center;
+    text-shadow: 3px 3px 10px rgb(107, 0, 4);
 }
 
 body {
@@ -156,6 +157,7 @@ header, #constructionMessage {
     font-size: 20px;
     padding-top: 20px;
     color: var(--textColor);
+    box-shadow: 10px 10px 10px inset rgb(144, 39, 1), -10px -10px 10px inset rgb(144, 39, 1);
 }
 #readSeries>div>a:hover {
     text-shadow: 0px 0px 10px var(--textGlow);
@@ -202,6 +204,23 @@ header, #constructionMessage {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     width:100%;
+}
+
+#readingPageButtons>button, #characterPageButtons>button, #characterButtonContainer>button {
+    color: var(--textColor);
+    background-color: transparent;
+    border-color: var(--borderColor);
+    font-size: 25px;
+    margin: 0px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 3px 3px 10px rgb(107, 0, 4), -3px -3px 10px rgb(107, 0, 4);
+}
+#readingPageButtons>button:hover, #characterPageButtons>button:hover, #characterButtonContainer>button:hover {
+    text-shadow: 0px 0px 10px var(--textGlow);
+}
+#readingPageButtons>button:active, #characterPageButtons>button:active, #characterButtonContainer>button:active {
+    text-shadow: 0px 0px 10px var(--textGlow);
+    font-size: 23px;
 }
 
 
