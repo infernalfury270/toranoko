@@ -2,37 +2,37 @@
     "The Takasu Family":[
         {
             "name":"Takasu Ryūji",
-            "description":"Sample Text",
+            "description":"A stay-at-home dad who always takes great care of his family. He goes to great lengths to ensure that his children are well-fed and his wife comes back from work to a clean home. While the people around him feared the glare from his sanpaku eyes, his children sought comfort in his gentle gaze. Unfortunately, none of his genes seemed to appear in any of his children, especially his son, who looks almost identical to his beloved wife. He also owns a bestselling cookbook.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Takasu Taiga",
-            "description":"Sample Text",
+            "description":"The breadwinner and matriarch of the family. Despite how small she seems, she's actually quite feisty, known as the 'Palm-Top Tiger' in high school. With her strong fighting spirit and charisma, she became a wealthy salarywoman to support her family of six. The most outrageous thing about her is the fact she gave birth to identical triplet daughters that would grow far larger than her, even outgrowing their father. She is certainly not a woman to be messed with.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Takasu Haruko",
-            "description":"The first and the oldest of the Takasu sisters... by about six minutes. Takasu Haruko is the smartest of the triplets. Well, she isn't that smart, since she's one of the lower performing students of the class. But she's always trying to help her sisters just barely pass their exams. This sister has a great love for eating. She's blessed to have such an amazing cook for a father.",
+            "description":"The first and the oldest of the Takasu sisters... by about six minutes. Takasu Haruko is the smartest of the triplets. Well, she isn't that smart, since she's one of the lower performing students of the class. But she's always trying to help her sisters just barely pass their exams. She's also formed a weird antagonistic relationship with her English teacher, since she gets bugged by her the most. This sister has a great love for eating. She's blessed to have such an amazing cook for a father.",
             "fullbodyFilepath":"gallery/img_4.png",
             "portraitFilepath":"gallery/img_5.png"
         },
         {
             "name":"Takasu Mitsuko",
-            "description":"Sample Text",
+            "description":"Compared to her sisters, she's a lot more passive and mellow. While she spends most of her time in her own world, she always tries to be kind wherever she can and resolve conflicts that arise. She usually finds herself breaking up fights between her sisters, while her sisters are always trying to protect her from any threats that come her way. She really, really loves books, so much so that it disrupts her performance in class. Her only wish is to share this love of books with someone.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Takasu Katsuko",
-            "description":"Sample Text",
+            "description":"All brawn, no brains. That's what she is. There isn't a better feeling than being stronger than everyone else. But status isn't the reason she became so strong. Her strength helps her knock any obstacles out of her sisters' way. She's the most hostile of the sisters, so nobody dares to mess with her, besides a few outliers. Mess with her or her sisters and at best, you'll get yelled at. But at worst, you'll get put six feet under. The only one that can take her on is Haruko, who is always trying to get her study.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Takasu Yuuchi",
-            "description":"Sample Text",
+            "description":"The youngest in the family and an avid gamer. He's in a weird position when it comes to his family. His sisters never stopped treating him like a kid. Especially Katsuko, who's always picking on him. His father treats him like he would with any other of his children, and his mother is extremely doting towards him. Now in his second year of junior high, he goes about his life without a care in the world, only needing his video games and gamer friends to keep him company.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         }
@@ -84,6 +84,18 @@
     "Others":[
         {
             "name":"Koigakubo Yuri",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Takasu Yasuko",
+            "description":"Sample Text",
+            "fullbodyFilepath":"placeholder.png",
+            "portraitFilepath":"placeholder.png"
+        },
+        {
+            "name":"Noto Hisanosuke",
             "description":"Sample Text",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
