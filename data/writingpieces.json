@@ -11,7 +11,7 @@
         ]}
     ],
     "Volume 1":[
-        {"imageFilepath":"gallery/img_2.png", "description":"The first volume of 'Toranoko!' and the first entry of Haruko's storyline. The volume begins with the Takasu sisters are entering their second academic year at Ohashi High School. Haruko, the smartest of the triplets, enters the year with the goal of getting her sisters' grades up. But after Yuri, her English teacher, decides to assign a pair project, she is forced to cross paths with a, irate, sleep-deprived loner named Sagawa Kaito, her randomly-assigned partner.","entries":[
+        {"imageFilepath":"gallery/img_2.png", "description":"The first volume of 'Toranoko!' and the first entry of Haruko's storyline. The Takasu sisters are entering their second year at Ohashi High School. Haruko arrives with the goal of getting her sisters' grades up. But after her English teacher decides to assign a pair project, she is forced to cross paths with a, irate, sleep-deprived loner named Sagawa Kaito, her randomly-assigned partner.","entries":[
             {"entryName":"Prologue", "entryFilepath":"read/0_1.pdf"}
         ]}
     ]
