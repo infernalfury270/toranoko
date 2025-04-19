@@ -94,6 +94,7 @@ header, #constructionMessage {
 #changelogContainer {
     height: 75%;
     overflow-y: scroll;
+    scrollbar-width: 2px;
 }
 
 /*ABOUT PAGE*/
@@ -146,23 +147,19 @@ header, #constructionMessage {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    overflow-y: scroll;
-    box-shadow: -10px 0px 10px 3px rgb(200, 105, 11);
-    border-color: var(--borderColor);
-    border-style: solid;
-    border-width: 2px;
+    border-style: none;
 }
 #readSeries>div>a {
     height: 50px;
     width:100%;
     background-color: var(--buttonColor);
-    border-color: var(--borderColor);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-style: none;
+    border-radius: 25px;
     font-size: 20px;
     padding-top: 20px;
+    margin-bottom: 20px;
     color: var(--textColor);
-    box-shadow: 10px 10px 10px inset rgb(144, 39, 1), -10px -10px 10px inset rgb(144, 39, 1);
+    box-shadow: 5px 5px 15px inset rgb(255, 223, 191), -5px -5px 15px inset rgb(255, 223, 191), 7px 7px 15px rgb(255, 223, 191), -7px -7px 15px rgb(255, 223, 191);
 }
 #readSeries>div>a:hover {
     text-shadow: 0px 0px 10px var(--textGlow);
@@ -219,15 +216,12 @@ header, #constructionMessage {
     margin: 0px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
     text-shadow: 3px 3px 10px rgb(107, 0, 4), -3px -3px 10px rgb(107, 0, 4);
+    text-align: center;
 }
-#readingPageButtons>button:hover, #characterPageButtons>button:hover, #characterButtonContainer>button:hover {
-    text-shadow: 0px 0px 10px var(--textGlow);
-}
+#readingPageButtons>button:hover, #characterPageButtons>button:hover, #characterButtonContainer>button:hover, 
 #readingPageButtons>button:active, #characterPageButtons>button:active, #characterButtonContainer>button:active {
     text-shadow: 0px 0px 10px var(--textGlow);
-    font-size: 23px;
 }
-
 
 
 #backToTop {
@@ -289,7 +283,7 @@ footer {
     }
     #readSeries {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 50px 1fr 150px;
+        grid-template-rows: 50px 1fr 1fr;
     }
     #readSeries>h2 {
         grid-column: 1 / 3;
@@ -311,6 +305,7 @@ footer {
     #readSeries>div {
         grid-column: 1 / 3;
         grid-row: 3 / 4;
+        flex-direction: row;
     }
     #characterInfo {
         grid-template-columns: 30% 1fr;
