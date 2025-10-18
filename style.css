@@ -23,6 +23,8 @@
 
 body {
     background-color: rgb(255, 171, 75);
+    background-image: url("bg.png");
+    background-repeat: repeat;
     color: var(--textColor);
     display: flex;
     align-items: center;
