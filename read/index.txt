@@ -1,0 +1,3 @@
+0 = Newsletters
+1 = Toranoko! Keepers
+2 = Toranoko! Volume 0

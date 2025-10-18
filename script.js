@@ -18,7 +18,7 @@ for (let i = 0; i < headerButtons.length; i++) {
     let headerButton = headerButtons[i];
     headerButton.addEventListener("click", function() {
         showPage(i);
-        scroll(0,600);
+        scroll(0,300);
     });
 }
 

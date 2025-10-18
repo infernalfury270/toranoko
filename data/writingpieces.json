@@ -1,20 +1,13 @@
 {
     "Newsletters":[
         {"imageFilepath":"gallery/img_2.png", "description":"Read the newsletters to get information about recent events concerning the series/the author. The newsletters also have little shorts involving the characters written for fun.", "entries":[
-            {"entryName":"Newsletter 28/12/2024", "entryFilepath":"read/0_1.pdf"},
-            {"entryName":"Newsletter 20/5/2025", "entryFilepath":"read/0_2.pdf"}
+            
         ]}
     ],
-    "Toranoko! Keepers":[
-        {"imageFilepath":"gallery/img_13.png", "description":"Toranoko! Keepers is a side story of the main Toranoko! series. The novel is an anthology consisting of six stories. Each story follows a different adult in the lives of Taiga and Ryuuji's daughters: Taiga's parents, Yasuko, Ami and, Ryuuji and Taiga themselves. All of them take place before the events of the main series.","entries":[
-            {"entryName":"Chapter 1: Aisaka Rikurou", "entryFilepath":"read/1_1.pdf"},
-            {"entryName":"Chapter 2: Takagi Seina", "entryFilepath":"read/1_2.pdf"},
-            {"entryName":"Chapter 3: Takasu Yasuko", "entryFilepath":"read/1_3.pdf"}
-        ]}
-    ],
-    "Volume 1":[
-        {"imageFilepath":"gallery/img_2.png", "description":"The first volume of 'Toranoko!' and the first entry of Haruko's storyline.","entries":[
-            {"entryName":"Prologue", "entryFilepath":"read/0_1.pdf"}
+    "Volume 0":[
+        {"imageFilepath":"gallery/img_2.png", "description":"\"I promise, I'll never let you go.\"\nThe tides had turned for the Takasu family after the delivery of Taiga's triplets had gone awry, leaving her terribly ill. As Ryuuji continued to work hard to care for her, Taiga's mother would glare over his shoulder as her threat to take Taiga away loomed over the couple. Wanting to avoid that outcome at all costs, Ryuuji would do everything he can to keep Taiga away from any more harm by any means necessary, even when Taiga herself would try to go against them.\n\nA look at the future of the Takasu family after the events of Toradora! and the precursor to the spinoff sequel, Toranoko!", "entries":[
+            {"entryName":"Chapter 1: When You Least Expect It", "entryFilepath":"read/2_1.pdf"},
+            {"entryName":"Chapter 2: She's My Responsibility", "entryFilepath":"read/2_2.pdf"}
         ]}
     ]
 }
