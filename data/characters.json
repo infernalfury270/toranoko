@@ -40,43 +40,43 @@
     "Class 2-C of 2029":[
         {
             "name":"Sagawa Kaito",
-            "description":"Sample Text",
-            "fullbodyFilepath":"placeholder.png",
-            "portraitFilepath":"placeholder.png"
+            "description":"A young man with the one and only goal to care for the family that his mother and father had worked so hard to build. He studies long hours to maintain his good grades with a part-time job on the side to alleviate his single mother's financial burdens. He's not someone that likes to spend time messing around, nor does he want anyone else's pity, no matter how much sleep he loses. He needs to stay focused to keep anything from falling apart. Unfortunately, after getting thrown into a pair project assigned by Yuri-sensei, one girl would become his biggest distraction: Takasu Haruko.",
+            "fullbodyFilepath":"gallery/img_17.png",
+            "portraitFilepath":"gallery/img_18.png"
         },
         {
             "name":"Ninomae Arisa",
-            "description":"Sample Text",
+            "description":"Takasu Mitsuko's best friend.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Kishida Mie",
-            "description":"Sample Text",
+            "description":"Also Takasu Mitsuko's best friend.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Koigakubo Tarou",
-            "description":"Sample Text",
+            "description":"His struggle to speak makes him a really quiet boy. Most of his responses come in the form of a shake or a nod, and any word that leaves his mouth is barely audible. He even has a hard time talking to his own mother. Even though his grades are alright, his lack of sociability leaves more to be desired. That's why he chose to join the student council in hopes of becoming more proactive. His days there wouldn't be easy, but through all his troubles, he'd start to grow closer to Takano Saki, his classmate who would join the council alongside him.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Takano Saki",
-            "description":"Sample Text",
+            "description":"A short and plump girl with a strong will and a heart of gold. In spite of her size, she never holds herself back from achieving big things. The harmony of the classroom amongst all the students in her class is of utmost importance, so she always delivers a big smile to everyone she talks to. She's destined for student council president!",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Yoshida Satoshi",
-            "description":"Sample Text",
+            "description":"He's a little aloof and likes hanging around Katsuko (to her dismay).",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Kogarashi Hitomi",
-            "description":"Sample Text",
+            "description":"A transfer student with looks that can make all the girls swoon (even Katsuko!). What happened at his old school remains a secret to all his new classmates as he tries to integrate himself into Ohashi High School. Once he feels secure in his new school life, his true character begins to unfold.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         }
@@ -84,19 +84,19 @@
     "Others":[
         {
             "name":"Koigakubo Yuri",
-            "description":"Sample Text",
+            "description":"A woman in her 50s returning to her teaching job after her son enrolled into the high school she taught at. She also got to keep her family name after marrying.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Takasu Yasuko",
-            "description":"Sample Text",
+            "description":"The grandmother to the Takasu sisters. Mitsuko is closest to her!",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         },
         {
             "name":"Noto Hisanosuke",
-            "description":"Sample Text",
+            "description":"The child of Noto Maya and Noto Hisamitsu, and Takasu Yuuchi's closest friend/gaming buddy.",
             "fullbodyFilepath":"placeholder.png",
             "portraitFilepath":"placeholder.png"
         }
