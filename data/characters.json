@@ -71,14 +71,14 @@
         {
             "name":"Yoshida Satoshi",
             "description":"He's a little aloof and likes hanging around Katsuko (to her dismay).",
-            "fullbodyFilepath":"placeholder.png",
-            "portraitFilepath":"placeholder.png"
+            "fullbodyFilepath":"gallery/img_30.png",
+            "portraitFilepath":"gallery/img_29.png"
         },
         {
             "name":"Kogarashi Hitomi",
             "description":"A transfer student with looks that can make all the girls swoon (even Katsuko!). What happened at his old school remains a secret to all his new classmates as he tries to integrate himself into Ohashi High School. Once he feels secure in his new school life, his true character begins to unfold.",
-            "fullbodyFilepath":"placeholder.png",
-            "portraitFilepath":"placeholder.png"
+            "fullbodyFilepath":"gallery/img_32.png",
+            "portraitFilepath":"gallery/img_31.png"
         }
     ],
     "Others":[
