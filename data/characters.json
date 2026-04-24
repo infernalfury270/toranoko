@@ -85,8 +85,8 @@
         {
             "name":"Koigakubo Yuri",
             "description":"A woman in her 50s returning to her teaching job after her son enrolled into the high school she taught at. She also got to keep her family name after marrying.",
-            "fullbodyFilepath":"placeholder.png",
-            "portraitFilepath":"placeholder.png"
+            "fullbodyFilepath":"gallery/img_34.png",
+            "portraitFilepath":"gallery/img_33.png"
         },
         {
             "name":"Takasu Yasuko",
@@ -97,8 +97,8 @@
         {
             "name":"Noto Hisanosuke",
             "description":"The child of Noto Maya and Noto Hisamitsu, and Takasu Yuuchi's closest friend/gaming buddy.",
-            "fullbodyFilepath":"placeholder.png",
-            "portraitFilepath":"placeholder.png"
+            "fullbodyFilepath":"gallery/img_36.png",
+            "portraitFilepath":"gallery/img_35.png"
         }
     ]
 }
